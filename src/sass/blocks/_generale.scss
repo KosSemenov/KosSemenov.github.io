@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    min-width: 960px;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #222222;
+    background-color: #f2f4f6;
+  }
+  
+  .container {
+    max-width: 928px;
+    margin: 0 auto;
+    padding: 0;
+    padding: 16px 0;
+  }
+
+  .header .container,
+  .footer .container {
+    max-width: 1400px;
+  }
+  
+  a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }

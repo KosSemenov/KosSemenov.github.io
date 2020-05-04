@@ -1,0 +1,77 @@
+.skill {
+    &__title {
+        @include title;
+        margin-top: 50px;
+    }
+    &__main {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 60px;
+        @include breakpoint-sm {
+            flex-direction: column;
+        }
+    }
+    &__item {
+        max-width: 30%;
+    }
+    &__html {
+        background-image: url('../icons/icon-html.svg');
+        max-width: 60px;
+        height: 80px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-bottom: 10px;
+    }
+    &__css {
+        background-image: url('../icons/icon-css.svg');
+        max-width: 60px;
+        height: 80px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-bottom: 10px;
+    }
+    &__js {
+        background-image: url('../icons/js_logo.png');
+        max-width: 60px;
+        height: 80px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-bottom: 10px;
+    }
+    &__dop {
+        margin-bottom: 80px;
+    }
+    &__subtitle {
+        @include subtitle;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__gulp {
+        max-width: 120px;
+        margin-top: -20px;
+    }
+    &__git {
+        max-width: 150px;
+        margin-right: 10px;
+    }
+    &__sass {
+        max-width: 130px;
+        margin: 0 5px;
+    }
+    &__github {
+        min-width: 150px;
+        height: 70px;
+    }
+    &__photoshop {
+        min-width: 150px;
+        height: 140px;
+    }
+    &__figma {
+        min-width: 140px;
+        height: 100px;
+    }
+    @include breakpoint-sm;
+}

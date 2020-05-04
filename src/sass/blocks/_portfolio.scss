@@ -1,0 +1,27 @@
+.portfolio {
+    &__title {
+        @include title;
+    }
+    &__work{
+        margin-bottom: 88px;
+        img {
+            width: 100%;
+            height: 436px;
+            background-size: 100%;
+        }
+    }
+    &__subtitle {
+        @include subtitle;
+    }
+    &__button {
+        padding: 6px 20px;
+        display: inline-block;
+        vertical-align: baseline;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 4px;
+        background-color: #288be6;
+        color: #ffffff;
+        margin-top: 20px;
+    }
+}

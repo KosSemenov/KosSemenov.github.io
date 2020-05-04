@@ -1,0 +1,20 @@
+.study {
+    margin-bottom: 60px;
+    &__title {
+        @include title;
+    }
+    &__block {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0 40px 0;
+    }
+    &__block:nth-child(3){
+        flex-direction: row-reverse;
+    }
+    &__img {
+        width: 30%;
+        max-height: 120px;
+        margin: 0 40px;
+    }
+}

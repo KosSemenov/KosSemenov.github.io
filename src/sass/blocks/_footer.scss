@@ -1,0 +1,21 @@
+.footer {
+    padding: 40px 0;
+    background-color: #00417d;
+    text-align: right;
+    &__email {
+        color: #fff;
+        background-image: url('../../icons/icon-email-footer.svg');
+        background-repeat: no-repeat;
+        padding-left: 30px;
+        background-position: left center;
+    }
+    &__phone {
+        color: #fff;
+        background-image: url('../../icons/icon-phone-footer.svg');
+        background-repeat: no-repeat;
+        padding-left: 30px;
+        background-position: left center;
+        margin-left: 50px;
+        margin-right: 15px;
+    }
+}

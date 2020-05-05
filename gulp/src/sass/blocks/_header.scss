@@ -38,5 +38,9 @@
         line-height: 40px;
       
     }
+    @include breakpoint-sm;
+    @include breakpoint-sm-litle;
+    @include breakpoint-xs;
+    @include breakpoint-xs-litle;
 }
 

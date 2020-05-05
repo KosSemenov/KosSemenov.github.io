@@ -7,12 +7,19 @@
         display: flex;
         justify-content: space-around;
         margin-bottom: 60px;
-        @include breakpoint-sm {
+        @include breakpoint-xs {
             flex-direction: column;
         }
     }
     &__item {
         max-width: 30%;
+        @include breakpoint-xs {
+            max-width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
     }
     &__html {
         background-image: url('../icons/icon-html.svg');
@@ -21,6 +28,12 @@
         background-repeat: no-repeat;
         background-size: 100%;
         margin-bottom: 10px;
+        @include breakpoint-xs {
+            min-width: 120px;
+            height: auto;
+            margin-right: 10px;
+            background-size: 90%;
+        }
     }
     &__css {
         background-image: url('../icons/icon-css.svg');
@@ -29,6 +42,13 @@
         background-repeat: no-repeat;
         background-size: 100%;
         margin-bottom: 10px;
+        @include breakpoint-xs {
+            min-width: 120px;
+            height: auto;
+            margin-right: 30px;
+            background-size: 90%;
+            margin-left: 10px;
+        }
     }
     &__js {
         background-image: url('../icons/js_logo.png');
@@ -37,6 +57,13 @@
         background-repeat: no-repeat;
         background-size: 100%;
         margin-bottom: 10px;
+        @include breakpoint-xs {
+            min-width: 120px;
+            height: auto;
+            margin-right: 10px;
+            background-size: 90%;
+            margin-right: 30px;
+        }
     }
     &__dop {
         margin-bottom: 80px;

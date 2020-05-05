@@ -37,8 +37,23 @@
         @content;
     }
 }
-@mixin breakpoint-sm {
-    @media screen and (max-width: 460px){
+@mixin breakpoint-sm-litle {
+    @media screen and (max-width: 630px){
+        @content;
+    }
+}
+@mixin breakpoint-xs {
+    @media screen and (max-width: 480px){
+        @content;
+    }
+}
+@mixin breakpoint-xs-litle {
+    @media screen and (max-width: 450px){
+        @content;
+    }
+}
+@mixin breakpoint-xs-litle2 {
+    @media screen and (max-width: 390px){
         @content;
     }
 }

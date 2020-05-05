@@ -3,7 +3,6 @@
     background-repeat: no-repeat;
     background-position: top center;
     height: 104vh;
-    position: relative;
     text-align: center;
     &__contact {
         text-align: right;
@@ -38,6 +37,8 @@
         line-height: 40px;
       
     }
+    @include breakpoint-lg;
+    @include breakpoint-md;
     @include breakpoint-sm;
     @include breakpoint-sm-litle;
     @include breakpoint-xs;
